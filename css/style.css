@@ -106,7 +106,6 @@ ul li a{
     margin-top: -50px;
     padding-top:100px;
     width: 100%;
-    height: 650px;
     align-content: center;
     /* border: 2px solid red; */
     box-sizing: border-box;
@@ -114,6 +113,7 @@ ul li a{
     line-height: 2em;
     text-align: center;
     background-color: #F4623A ;
+    padding-bottom: 50px;
    
 }
 
@@ -193,7 +193,6 @@ ul li a{
 
 #services ul img{
     width: 100px;
-    height: 100px;
     box-sizing: border-box;
 }
 #services ul li{
@@ -209,11 +208,10 @@ ul li a{
 
 #photos {
     width: 100%;
-    height: 900px;
     background-color:#343A40;
     float: left;
     margin: 150px  0 40px 0;
-    padding: 0; */
+    padding: 0 0 100px 0; 
     display: block;
     text-align: center;
 }
@@ -302,4 +300,6 @@ ul li a{
 
 #touch p:last-child{
     background-color: #6c757d;
+    padding: auto 0 ;
+    width: 100%;
 }

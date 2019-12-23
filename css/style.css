@@ -284,3 +284,7 @@ ul li a{
     padding: 25px;
     color: #6c757d;
 }
+
+#touch p:last-child{
+    background-color: #6c757d;
+}

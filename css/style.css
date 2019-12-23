@@ -1,18 +1,19 @@
 body {
     /* border: 2px solid black; */
     height: 100%;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
-#wrapper{
+#wrapper {
     display: inline-block;
     width: 100%;
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
     background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%),url(../images/desktop.jpg);
     /* background-image: url(../images/desktop.jpg); */
     height: 650px;
     /* filter: brightness(.8); 
     filter: saturate(.6);    */
+    
    
 }
 
@@ -66,7 +67,7 @@ ul li a{
     
 }
 
-#content{
+#content {
     color: #FFFFFF;
     font-family:"Merriweather Sans" ;
     display: block;
@@ -95,4 +96,191 @@ ul li a{
     height: 2px;
     filter: brightness(1);
     border-radius:10rem ;
+}
+
+#secont{
+    color: #FFFFFF;
+    font-family:"Merriweather Sans" ;
+    display: block;
+    margin-top: -50px;
+    padding-top:100px;
+    width: 100%;
+    height: 650px;
+    align-content: center;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    font-size: 1.1em;
+    line-height: 2em;
+    text-align: center;
+    background-color: #F4623A ;
+   
+}
+
+
+#secont hr {
+    background-color:#fff;
+    width: 60px;
+    height: 2px;
+    filter: brightness(1);
+    border-radius:10rem ;
+}
+
+#secont h2{
+    padding-top: 2em;
+    font-size: 2em;
+}
+#secont p{
+    margin-bottom: 5px;
+    width: 50%;
+    margin: 0 auto;
+    color: rgba(255,255,255,.5);
+    
+}
+
+#secont button {
+    margin:25px auto;
+    width: 10em;
+    height: 3.5em;
+    border-radius: 10rem;
+    background-color:#fff;
+    font-weight: bold;
+
+}
+
+#services  {
+    
+    font-family:"Merriweather Sans" ;
+    display:block;
+    width: 100%;
+    height: 400px;
+    /* border: 2px solid red; */
+    /* box-sizing: border-box; */
+    font-size: 1.1em;
+    line-height: 2em;
+    background-color: #fff ;
+    overflow: visible;
+}
+
+#services h2{
+    padding-top: 2em;
+    font-size: 32px;
+    text-align: center;
+    font-family:"Merriweather Sans" ;
+    color: #343a40;
+    display: block;
+}
+#services hr {
+    display: block;
+    background-color: #F4623A;
+    width: 75px;
+    height: 2px;
+    filter: brightness(1);
+    border-radius:10rem ;
+}
+#services ul{
+    display: inline-block;
+    margin:0 auto;
+    width: 100%;
+    
+}
+
+#services ul h4{
+    font-size: 24px;
+    color:  #343a40;
+
+}
+
+#services ul img{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+#services ul li{
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+    float: left;
+    color:  #343a40;
+    margin-top: 3em;;
+    font-size:16px ;
+    
+}
+
+#photos {
+    width: 100%;
+    height: 900px;
+    background-color:#343A40;
+    float: left;
+    margin: 150px  0 40px 0;
+    padding: 0; */
+    display: block;
+    text-align: center;
+    
+}
+
+#photos #links{
+    padding: 0;
+   
+    
+    align-content: center;
+    float: left;
+    
+    margin-bottom: 2em;
+    display: inline-block;
+}
+
+#photos  #links img{
+    padding: 0;
+    margin: 0;
+    width: 340px;
+    height: 220px;
+    display: inline-block;
+}
+
+
+#photos h2{
+    padding-top: 2em;
+    font-size: 32px;
+    text-align: center;
+    font-family:"Merriweather Sans" ;
+    color: #fff;
+    display: block;
+   
+}
+
+#photos button {
+    
+    width: 12em;
+    height: 3.5em;
+    border-radius: 10rem;
+    background-color:#fff;
+    font-weight: bold;
+    
+}
+
+#touch {
+    /* position: relative; */
+    margin-top: 150px;
+    display: block;
+    width: 100%;
+    /* border: 2px solid aqua; */
+    background: #fff;
+    height: 250px;
+    text-align:center;
+}
+
+#touch h1{
+    font-size: 32px;
+    /* margin: auto; */
+    color:#212529;
+    font-family: "Merriweather Sans";
+    text-align: center;
+}
+
+#touch p,a{
+    margin:0  auto;
+    font-size: 16px;
+    width: 70%;
+    padding: 25px;
+    color: #6c757d;
 }
